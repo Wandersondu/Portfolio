@@ -1,0 +1,102 @@
+body {
+    background: #0a3de42d;
+    color: rgb(37, 37, 37);
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14pt;
+    margin: 0;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+.profile {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    letter-spacing: -1px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 40px;
+    color: rgb(47, 38, 168);;
+}
+.nome {
+    color: rgb(47, 38, 168);
+}
+
+h2 {
+    margin-top: 0px;
+    font-style: italic;
+    color: rgb(47, 38, 168);
+    letter-spacing: -1px;
+    font-weight: 1;
+}
+
+h3 {
+    color: rgb(47, 38, 168);
+}
+
+h4 {
+    margin-bottom: 5px;
+    color: rgb(47, 38, 168);
+
+}
+
+h5 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-style: italic;
+    color: rgb(47, 38, 168);
+}
+
+p {
+    line-height:25px ;
+    margin-top: 0;
+}
+
+ .social-icons {
+     width: 40px;
+ }
+
+ .social-links {
+    text-decoration: none;
+ }
+
+ #git {
+    margin-left: 30px;
+    margin-right: 30px;
+ }
+
+img {
+    width: 200px;
+
+}
+
+.foto {
+    border: 0px solid black; /*shorthand*/
+    border-radius: 50%;
+    /*border-width: 5px;
+      border-style: solid;
+      border-color: black;*/
+    box-shadow: 0px 0px 10px 4px rgba(47, 38, 168, 0.493);
+    padding: 5px;
+}
+
+.jobs-list {
+    list-style: none;
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+    background: rgba(46, 37, 175, 0.699);
+    color: aliceblue;
+    margin-top: 40px;
+    padding: 10px 0;
+    font-weight: 100;
+}
