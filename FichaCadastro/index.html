@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML Avançado</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Ficha de cadastro</h1>
+        <form action="salvar.html" method="GET">
+
+            <fieldset>
+                <legend>Dados do usuário</legend>
+                <fieldset>
+                    <legend>01</legend>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="name" id="nome" placeholder="Qual é o seu nome?">
+
+                    <br><br>
+
+                    <label for="email">E-mail:</label>
+                    <input  name="Email" type="E-mail"  id="email" placeholder="E-mail">
+
+                    <br><br>
+                    
+                    <label for="senha">Senha</label>
+                    <input name="Senha" type="password"  id="senha" placeholder="Senha">
+                </fieldset>
+                    <br>
+                <fieldset>
+                    <legend>02</legend>
+                    <label for="">Selecione a cor do seu nome: </label>
+                    <input type="color" name="color" id=""> <br>
+                    
+                    <label for="sexo">Sexo:</label> <br>
+
+                    <label for="mas">Masculino</label>
+                    <input type="radio" value="Masculino" name="Sexo" id="mas" checked="Masculino"> 
+
+                    <label for="fem">Feminino</label>
+                    <input type="radio" value="feminino " name="Sexo" id="fem">
+
+                    <label for="gay">Não definido</label> 
+                    <input type="radio" value="Não definido" name="Sexo" id="gay"><br><br>
+                </fieldset><br>
+                <fieldset>
+                    <legend>03</legend>
+                    <label for="">Habilidades:</label><br><br>
+                    
+                    <input name="habilidades" type="checkbox" value="html" id="html"><label for="html">HTML</label><br>
+                    <input name="habilidades" type="checkbox" value="css" id="css"><label for="css">CSS</label><br>
+                    <input name="habilidades" type="checkbox" value="javascript" id="javascript"><label for="javascript">JavaScript</label><br>
+                </fieldset><br>
+                <fieldset>
+                    <legend>04</legend>
+                    <label for="cidade">Cidade:</label>
+                    <select name="cidade" id="cidade">Cidade:
+                    <option value="selected ">..Selecione..</option>
+                    <option value="São Paulo">São Paulo</option>
+                    <option value="Rio de Janeiro">Rio de Janeiro</option>
+                    <option value="Ceará">Ceará</option>
+
+                    </select>
+                    
+                    <label for="">Carros</label>
+                    
+                    <select name="carro" id="">
+                        <optgroup label="BMW">
+                            <option value="D">D320</option>
+                            <option value="Z">Z1</option>
+                            <option value="Z">Z3</option>
+                            <option value="Z">Z5</option>
+                            <option value="D">D117</option>
+                            <option value="D">D123</option>
+                        </optgroup><br>
+                        <optgroup label="Mecedes">
+                            <option value="C">C220</option>
+                            <option value="C">C180</option>
+                            <option value="C">E45</option>
+                            <option value="C">C350</option>
+                            <option value="C">C320</option>
+                        </optgroup>
+                    </select>
+                    <br><br>
+
+                    <label>Qual é sua fruta:</label>
+                    <input list="ListaFrutas" type="text" name="frutas" id="" placeholder="Digite a fruta!"><br>
+
+                    <datalist id="ListaFrutas">
+                        <option value="Abacate">
+                        <option value="Abacaxi">
+                        <option value="Açai">
+                        <option value="Acerola">
+                    </datalist>
+                <br> 
+                </fieldset><br>
+                <fieldset>
+                    <legend>05</legend>
+                    <label for="">Digite sua mensagem</label><br><br>
+                    <textarea name="" id="" cols="50" rows="10"></textarea><br><br>
+
+                    <button><b>Enviar</b></button>
+                </fieldset>
+            </fieldset>
+        </form>
+        <footer>&copy; Todos os direitos reservados</footer>
+    </body>
+</html>

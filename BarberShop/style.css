@@ -1,0 +1,448 @@
+:root {
+    --color-primery: #917758;
+    --color-primery-light: #f5eee6;
+    --color-secondary: #3c2915;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {   
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/***********************HOME*************************/
+
+
+
+.home {
+    position: relative;
+    background-size: cover;
+    background-image: url(bg-home.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+    
+}
+
+.home .header {
+    padding: 30px 0;
+    padding-bottom: 0;
+}
+
+.home .header .nav {
+    display: flex;
+    justify-content: center;
+}
+
+.home .header .nav ul {
+    display: flex;
+    list-style: none;
+    
+}
+
+.home .header .nav ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+}
+
+.home .header .nav ul li a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 20px;
+}
+
+.home .header .nav ul li a:hover {
+    border-bottom: 1px solid var(--color-primery);
+    color: var(--color-primery);
+} 
+
+.home .header .nav ul li .logo {
+    margin: 0 40px;
+}
+
+
+
+/********************* HOME - BANNER *************************/
+
+
+.home .banner {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 300px;
+    width: 860px;
+    margin-left: -430px;
+    margin-top: -150px;
+    color: white;
+    text-align: center;
+}
+
+.home .banner span {
+    display: block;
+}
+
+.home .banner .slogan1 {
+    color: var(--color-primery);
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 100pt;
+}
+
+.bigode {
+    margin-top: 30px;
+}
+
+
+/********************* ABOUT *************************/
+
+.about {
+    background-color: var(--color-primery);
+    
+}
+
+.about .container {
+    display: flex;
+}
+
+.about .timing {
+    position: relative;
+    margin-top: -50px;
+    width: 33%;
+    padding: 20px;
+    background-image: url(brush-big.jpg);
+}
+
+.about .timing .overlay {
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.about .timing .overlay .icon-cut {
+    width: 50px;
+    
+}
+
+.about .timing .overlay h3 {
+    color: var(--color-primery);
+    text-transform: uppercase;
+    font-size: 24pt;
+    border-bottom: 1px solid var(--color-primery);
+    width: fit-content; /*o tramanho do h3 fivca do tamanho do conteudom precisa do margin auto*/
+    margin: 0 auto 30px auto;
+}
+
+.about .timing .text {
+    margin: 10px 0;
+}
+
+.about .timing .text:after {
+    content: '•';
+    display: block;
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.about .timing .text:last-of-type:after  { /* nbo utimo item aplica */
+    content: '|';
+}
+
+.about .timing .text {
+    color: gray;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.about .timing span {
+    color: gray;
+    font-size: 15px;
+    display: block;
+}
+.about .experience {
+    width: 66%;
+    color: white;
+    margin-left: 7%;
+    margin-top: 80px;
+}
+
+.about .experience h2 {
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.about .experience h2::after {
+    display: block;
+    content: '';
+    width: 100px;
+    height: 3px;
+    background-color:  #a38f78;
+    margin: 20px 0;
+}
+
+.about .experience .text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about .experience .text p {
+    margin-bottom: 20px;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+
+
+/********************* SERVICE *************************/
+
+
+
+.service {
+    padding: 100px 0;
+    text-align: center;
+    background-color: var(--color-primery-light);
+
+}
+
+.service h2 {
+    color: var(--color-secondary);
+    font-weight: 400;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.service .boxes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+
+.service .boxes .box {
+    border: 2px solid var(--color-primery);
+    padding: 50px 30px;
+    margin: 30px;
+}
+
+.service .boxes .box h4 {
+    color: var(--color-secondary);
+    margin-top: 30px;
+}
+
+.service .boxes .box p {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 28px; /*espaçamento entre linhas*/
+} 
+
+
+
+/********************* APPOINTMENT *************************/
+
+
+
+.appointment {
+    padding: 100px 0;
+    background-color: var(--color-primery);
+    height: 100vh;
+    background-image: url(chair-ic.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 300px;
+}
+
+.appointment h2 {
+    color: var(--color-primery-light);
+    font-weight: 400;   
+    font-size: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.appointment img {
+    margin: 0 auto;
+    display: block;
+}
+
+.appointment form {
+    margin-top: 80px;
+}
+.appointment .personal-data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.appointment .input-wrapper {
+    width: 100%;
+    margin-right: 50px;
+}
+
+.appointment .input-wrapper:last-of-type {
+    margin-right: 0;
+}
+
+.appointment label {
+    display: block;
+    color: var(--color-primery-light);
+    margin-bottom: 4px;
+    font-size: 14px;
+}
+
+.appointment .personal-data input,
+.appointment .personal-data select,
+.appointment textarea {
+    padding: 10px;
+    outline: none;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+}
+
+.appointment textarea {
+    height: 100px;
+}
+
+
+.appointment button {
+    background-color: var(--color-secondary);
+    color: white;
+    padding: 15px 40px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+
+/********************* GALLERY *************************/
+
+
+
+.gallery {
+    padding: 100px 0;
+    background-color: var(--color-primery-light);
+}
+
+.gallery h2 {
+    color: var(--color-primery);
+    font-weight: 400;   
+    font-size: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.gallery img {
+    margin: 0 auto;
+    display: block;
+}
+
+.gallery .gallery-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    flex-wrap: wrap;
+    width: 900px;
+    margin: 50px auto;
+    
+}
+
+.gallery .gallery-wrapper div {
+    border: 10px solid var(--color-primery);
+    margin: 6px;
+    width: 33%;
+}
+
+.gallery .gallery-wrapper div img {
+    width: 100%;
+
+}
+
+
+/********************* GALLERY *************************/
+
+
+.location {
+    padding: 100px 0;
+    background-image: url(bg-location.jpg);
+    background-size: cover; /* preenche a area toda*/
+}
+
+.location .head {
+    display: flex;
+    justify-content: space-between;
+    background-color: #191919;
+    padding: 40px;
+    width: 100%;
+}
+
+.location .head .info {
+    display: flex;
+    align-items: center;
+}
+
+.location .head .info .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--color-primery);
+    border-radius: 100%;
+    padding: 10px;
+    margin-right: 10px;
+    width: 50px;
+    height: 50px
+}
+
+.location .head .info .text span {
+    display: block;
+    font-size: 13px;
+
+}
+
+.location .head .info .text span:first-child {
+    color: silver;
+}
+
+.location .head .info .text span:last-child
+{
+    color: white
+}
+
+.location .map {
+    width: 100%;
+}
+
+.location .map iframe{
+    width: 100%;
+}
+
+
+
+
+
+
+.footer {
+   background-color: #191919;
+   text-align: center;
+   font-size: 12px;
+   padding: 40px;
+   color: var(--color-primery-light);
+}

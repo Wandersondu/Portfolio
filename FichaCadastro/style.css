@@ -1,0 +1,16 @@
+body {
+    background: rgb(218, 214, 214);
+}
+
+h1 {
+    text-align: center;
+}
+legend {
+    text-align: center;
+    
+}
+
+footer {
+    text-align: center;
+    padding-top: 7px;
+}

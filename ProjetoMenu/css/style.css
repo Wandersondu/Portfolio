@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(223, 222, 222);
+    font-family: 'Arial', sans-serif;
+}
+.header {
+    display: flex; /*deixar lado a lado*/
+    justify-content: space-between;/*deiar um espaço entre eles, h1 e a li*/
+    align-items: center; /*alinha o texto no centro na vertical*/
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    box-shadow: 0 0 15px black;
+    padding: 0 20px; /*espassamento nas laterais*/
+}
+
+.logo {
+    color: bisque;
+    letter-spacing: -3px; /*Reduz o espaço entre as letras*/
+    
+}
+.logo span:first-child {
+    color: rgb(53, 165, 240);;
+}
+
+.logo span:last-child {
+    font-size: 12px;
+    letter-spacing: 0;
+}
+
+.menu {
+    display: flex;
+    
+}
+
+.menu li { /*submenu*/
+    position: relative;
+}
+
+.menu li a {
+    padding: 17px;
+    color: bisque;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+}
+
+.menu li:hover {
+    background:rgb(53, 165, 240);
+}
+
+.menu > li:hover > .submenu, .submenu > .menu li:hover > .submenu {
+    display: block;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    min-width: 110%;
+    left: 0;
+    background: rgb(50, 173, 245);
+}
+
+.submenu li:hover {
+    background: rgb(43, 43, 247);
+}
+
+.submenu li {
+    position: relative;
+}
+
+.submenu li .submenu {
+    top: 0;
+    left: 100%;
+}
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background: black;
+    color: bisque;
+    text-align: center;
+    
+}
