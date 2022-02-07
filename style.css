@@ -195,39 +195,29 @@ p{
 /*----------------menu projeto---------------------*/
 
 .projetos{
-    /*background-color: rgb(175, 138, 138);*/
-    max-width: 1200px;
-    margin: auto;
-    min-height: 90vh;
-    display: inline-block
-    
+background-color: #eee;
+margin: 30px 10px 10px 10px;
+max-width: 100%;
+max-height: 100%;
+
+
+
+
 }
 
-.projetos div{
-   /* background-color: green;*/
-    border: 1px solid var(--color-border);
-    
-
-    
-}
 .barberShop, .curriculo, 
-.cadastro, .projetoMenu, .toDoList{
-
+.fichaCadastro, .projetoMenu, .toDoList{
+    background-color: blue;
+    border: 1px solid var(--color-border);
+    width: 100px;
+    height: 150px;
 
 }
-
-.link-projetos{
-   /* background-color: blue;*/
-    margin-top: 30px;
-    
-} 
-
 .img-projetos{
-    background-color: rgb(230, 231, 225);
-    width: 70px;
-    height: 100px;
+    background-color: green;
+    width: 100px;
+    height: 150px;
+    margin: 10px;
 }
-.img-projetos, .link-projetos {
 
-}
 
