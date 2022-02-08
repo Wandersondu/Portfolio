@@ -195,26 +195,31 @@ p{
 /*----------------menu projeto---------------------*/
 
 .projetos{
-background-color: #eee;
-margin: 30px 10px 10px 10px;
-max-width: 100%;
-max-height: 100%;
 
-
+    margin: 50px 10px 10px 10px;
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 
 
 }
 
 .barberShop, .curriculo, 
 .fichaCadastro, .projetoMenu, .toDoList{
-    background-color: blue;
+    
     border: 1px solid var(--color-border);
     width: 100px;
     height: 150px;
-
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+ 
 }
 .img-projetos{
-    background-color: green;
     width: 100px;
     height: 150px;
     margin: 10px;
