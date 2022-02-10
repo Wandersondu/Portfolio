@@ -236,5 +236,118 @@ p{
 }
 
 /*----------------------- final menu projeto ---------------------------*/
-/*------------------------ menu sobre mim -----------------------*/
-/*------------------------ Final menu sobre mim -----------------------*/
+/*------------------------ Contatos -----------------------*/
+.container-contact{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 2rem;
+    overflow: hidden;
+    display: flex;
+    align-items: ;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+}
+.form{
+    width: 100%;
+    max-width: 820px;
+    height: 800px;
+    margin-top: 20px;
+    border-radius: 40px;
+    box-shadow: 0 0 20px 2px var(--white-alpha-25);
+    z-index: 1000;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.contact-info{
+    background: rgba(250, 247, 252, 0.363);
+}
+.contact-form{
+    background-color: rgba(45, 108, 190, 0.363);
+    position: relative;
+
+}
+.circle{
+    border-radius: 50%;
+    background: linear-gradient(135deg, transparent 20%, #08ff5a);
+    position: absolute;
+}
+.circle .one{
+    width: 130px;
+    height: 130px;
+    top: 130px;
+    right: -40px;
+}
+.circle .two{
+    width: 80px;
+    height: 80px;
+    top:10px;
+    right: 30px;
+}
+.contact-form::before{
+    content: "";
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    background-color: rgba(45, 108, 190, 0.301);
+    transform: rotate(45deg);
+    top: 50px;
+    left: -13px;
+}
+form{
+    padding: 2.3rem 2.2rem;
+    z-index: 10;
+    overflow: hidden;
+    position: relative;
+}
+.title{
+    color: var(--color-fonte);
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 1;
+    margin-bottom: 0.7rem;
+    
+}
+.input-container{
+    position: relative;
+    margin: 1rem 0; 
+
+}
+label{
+    display: none;
+
+}
+.input{
+    width: 100%;
+    outline: none;
+    border: 2px solid #fafafa;
+    border-radius: 40px;
+    background-color: none;
+    padding: 0.6rem 1.2rem;
+    color: black;
+    font-weight: 300;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+    transition: 0.3s;
+}
+text.input{
+    padding: 0.8rem 1.2rem;
+    min-height: 150px;
+    border-radius: 20px;
+    resize: none;
+    overflow-y: auto;
+}
+.input-container label{
+    position: absolute;
+    top: 50px;
+    left: 15px;
+    transform: translate(50%);
+    padding: 0 0.5rem;
+    color: black;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+/*------------------------ Final contatos -----------------------*/
