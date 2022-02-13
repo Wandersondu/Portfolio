@@ -244,14 +244,14 @@ p{
     padding: 2rem;
     overflow: hidden;
     display: flex;
-    align-items: ;
+    align-items:center ;
     justify-content: center;
     font-family: "Poppins", sans-serif;
 }
 .form{
     width: 100%;
     max-width: 820px;
-    height: 800px;
+    height: 700px;
     margin-top: 20px;
     border-radius: 40px;
     box-shadow: 0 0 20px 2px var(--white-alpha-25);
@@ -318,6 +318,7 @@ form{
 }
 label{
     display: none;
+    
 
 }
 .input{
@@ -333,7 +334,7 @@ label{
     letter-spacing: 0.5px;
     transition: 0.3s;
 }
-text.input{
+textarea.input{
     padding: 0.8rem 1.2rem;
     min-height: 150px;
     border-radius: 20px;
@@ -342,12 +343,16 @@ text.input{
 }
 .input-container label{
     position: absolute;
-    top: 50px;
+    top: 50%;
     left: 15px;
-    transform: translate(50%);
-    padding: 0 0.5rem;
-    color: black;
+    transform: translate(-50%);
+    padding: 0 0.4rem;
+    color: rgb(243, 239, 239);
     font-size: 0.9rem;
     font-weight: 400;
+    pointer-events: none;
+    z-index: 1000;
+    transition: 0.3s;
 }
+
 /*------------------------ Final contatos -----------------------*/
