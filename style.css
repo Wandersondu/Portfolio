@@ -66,16 +66,17 @@ section{ /* Quadrado central */
     border-radius: 40px;
     
 }
-.container{
-    background-color: blue;
-}
+
+
 
 /*-------------------Corpo Central--------------------------*/
 /*--------Barra de menus-------------*/
 .header{
    /* background-color: red;*/
     max-width: 100%;
-    height: 130px;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 0;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -250,8 +251,9 @@ p{
 }
 .form{
     width: 100%;
-    max-width: 820px;
-    height: 700px;
+    max-width: 1000px;
+    height: 800px;
+    max-height: 1500px;
     margin-top: 20px;
     border-radius: 40px;
     box-shadow: 0 0 20px 2px var(--white-alpha-25);
@@ -270,23 +272,7 @@ p{
     position: relative;
 
 }
-.circle{
-    border-radius: 50%;
-    background: linear-gradient(135deg, transparent 20%, #08ff5a);
-    position: absolute;
-}
-.circle .one{
-    width: 130px;
-    height: 130px;
-    top: 130px;
-    right: -40px;
-}
-.circle .two{
-    width: 80px;
-    height: 80px;
-    top:10px;
-    right: 30px;
-}
+
 .contact-form::before{
     content: "";
     position: absolute;
