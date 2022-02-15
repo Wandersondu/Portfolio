@@ -245,14 +245,12 @@ p{
     padding: 2rem;
     overflow: hidden;
     display: flex;
-    align-items:center ;
     justify-content: center;
     font-family: "Poppins", sans-serif;
 }
 .form{
     width: 100%;
     max-width: 1000px;
-    height: 800px;
     max-height: 1500px;
     margin-top: 20px;
     border-radius: 40px;
@@ -283,6 +281,7 @@ p{
     top: 50px;
     left: -13px;
 }
+
 form{
     padding: 2.3rem 2.2rem;
     z-index: 10;
@@ -291,54 +290,69 @@ form{
 }
 .title{
     color: var(--color-fonte);
-    font-weight: 300;
+    font-weight: 400;
     font-size: 1.5rem;
     line-height: 1;
     margin-bottom: 0.7rem;
+    margin-top: 25px;
     
 }
 .input-container{
     position: relative;
-    margin: 1rem 0; 
+    margin: 2rem 0; 
 
 }
-label{
-    display: none;
-    
 
-}
 .input{
     width: 100%;
     outline: none;
     border: 2px solid #fafafa;
-    border-radius: 40px;
-    background-color: none;
+    border-radius: 25px;
+    background: none;
     padding: 0.6rem 1.2rem;
-    color: black;
-    font-weight: 300;
+    color: var(--color-fonte);
+    font-weight: 500;
     font-size: 0.95rem;
     letter-spacing: 0.5px;
     transition: 0.3s;
 }
-textarea.input{
+textarea .input{
     padding: 0.8rem 1.2rem;
     min-height: 150px;
-    border-radius: 20px;
+    border-radius: 22px;
     resize: none;
     overflow-y: auto;
+    color: black;
 }
 .input-container label{
-    position: absolute;
     top: 50%;
     left: 15px;
     transform: translate(-50%);
     padding: 0 0.4rem;
-    color: rgb(243, 239, 239);
+    color: rgb(32, 29, 29);
     font-size: 0.9rem;
     font-weight: 400;
     pointer-events: none;
     z-index: 1000;
     transition: 0.3s;
+}
+.btn{
+    padding: 0.6rem 1.3rem;
+    background-color: var(--c);
+    border: 2px solid var(--color-border);
+    font-size: 0.95rem;
+    color: var(--color-fonte);
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    line-height: 1;
+    border-radius: 25px;
+    outline: none;
+    cursor: pointer ;
+    transition: 0.3s;
+    margin-top: 20px;
+}
+.btn:hover{
+    background-color: var(--white-alpha-40);
 }
 
 /*------------------------ Final contatos -----------------------*/
