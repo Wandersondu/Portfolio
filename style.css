@@ -306,7 +306,7 @@ form{
 .input{
     width: 100%;
     outline: none;
-    border: 2px solid #fafafa;
+    border: 2px solid var(--color-border);
     border-radius: 25px;
     background: none;
     padding: 0.6rem 1.2rem;
