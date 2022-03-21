@@ -212,6 +212,7 @@ p{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    
 }
 
 .barberShop, .curriculo, 
@@ -225,6 +226,7 @@ p{
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
+    
  
 }
 .img-projetos{
