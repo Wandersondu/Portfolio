@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(119, 122, 122), rgba(44, 6, 70, 0.952));
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    padding-left: 8%;   
+    padding-right: 8%;
+    padding-top: 2%;
+}
+
+.navbar{
+    height: 15%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 80px;
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav, ul, li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 50px;
+}
+nav, ul, li, a{
+    text-decoration: none;
+    color: bisque;
+    font-size: 18px;
+       
+}
+
+a:hover{
+    color: rgb(243, 226, 226);
+    border-bottom: 1px solid rgb(226, 213, 188);
+   }
+h1{
+    color: aliceblue;
+    letter-spacing: 2px;
+}
+.text{
+    letter-spacing: 3px;
+    margin-top: 40px;
+    
+}
+.row{
+    width: 100%;
+    height: 80%;
+    margin: 30px 20px 30px 20px;
+    display: flex;
+    align-items: center;
+    
+
+}
+.col{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+    
+
+}
+.card{
+    width: 150px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 15px;
+    padding: 15px 15px;
+    margin: 10px 15px;
+    box-sizing: border-box;
+    cursor: pointer ;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    text-align: center;
+    letter-spacing: 1px;
+
+}
+.card1{
+    background-image: url(./fundo.jpg);
+}
+.card2{
+    background-image: url(./fundo.jpg);
+}
+.card3{
+    background-image: url(./fundo.jpg);
+}
+.card4{
+    background-image: url(./fundo.jpg);
+}
+.card5{
+    background-image: url(./fundo.jpg);
+}
+.card6{
+    background-image: url(./fundo.jpg);
+}
+.card:hover{
+    transform: translateY(-15px);
+}
+h4{
+    margin-top: 5px;
+    color: bisque;
+}
+p{
+    color: antiquewhite;
+    margin-top: 15px;
+}
