@@ -8,8 +8,8 @@
 :ROOT{
     --color-fonte-menu: rgba(10, 117, 218, 0.815);
     --color-fonte: rgba(39, 30, 25, 0.815);
-    --cyan-light: #08ff5a;
-    --pink-light: #38cefcd2;
+    --cyan-light: #08ff5a8e;
+    --pink-light: #38cefc9f;
     --green-yellow: rgb(94, 139, 20);
     --white-alpha-40: rgba(231, 228, 227, 0.336);
     --white-alpha-25: rgba(252, 250, 249, 0.322);
@@ -192,18 +192,16 @@ p{
 
 /*------------------------ menu projeto -----------------------*/
 .projetos{
-    background-color: bisque;
-    min-height: 90vh;
+    max-width: 1200px;
     display: flex;
-    align-content: flex-start;
-    justify-content: space-evenly;
-    
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .card{
     width: 200px;
     height: 230px;
-    margin: 10px 15px;
-    margin-top: 30px;
+    margin: 10px 20px;
+    margin-top: 40px;
     padding: 15px 25px;
     box-sizing: border-box;
     cursor: pointer;
@@ -214,7 +212,7 @@ p{
     border: 1px solid var(--color-border);
 }
 .card:hover{
-    transform: translateY(30px);
+    transform: translateY(-20px);
 }
 .card1{
     background-image: url(./babershop.jpg);
