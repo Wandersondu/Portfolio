@@ -6,11 +6,11 @@
 
 /*---------------------------------VARIABLES--------------------------------*/
 :ROOT{
-    --color-fonte-menu: rgba(10, 117, 218, 0.815);
-    --color-fonte: rgba(39, 30, 25, 0.815);
-    --cyan-light: #08ff5a8e;
-    --pink-light: #38cefc9f;
-    --green-yellow: rgb(94, 139, 20);
+    --color-fonte-menu: rgb(255, 255, 255);
+    --color-fonte: rgb(210, 208, 211);
+    --cyan-light: #170324;
+    --pink-light: #6d5d45fb;
+    --green-yellow: rgb(10, 2, 2);
     --white-alpha-40: rgba(231, 228, 227, 0.336);
     --white-alpha-25: rgba(252, 250, 249, 0.322);
     --color-border: rgba(255, 255, 253, 0.411);
@@ -196,6 +196,8 @@ p{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    box-sizing: border-box;
+    align-items: center;
 }
 .card{
     width: 200px;
@@ -209,10 +211,10 @@ p{
     background-size: cover;
     transition: transform 0.5s;
     border-radius: 25px;
-    
+        
 }
 .card:hover{
-    transform: translateY(-20px);
+    transform: translateY(25px);
 }
 .card1{
     background-image: url(./babershop.jpg);
@@ -232,6 +234,19 @@ p{
 .card6{
     background-image: url(./sahara.png);
 }
+.link-projetos{
+    
+  
+    color: #170324;
+}
 
+#link{
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 16px;
+    border-radius: 21px;
+    background-color: rgb(206, 197, 197);
+    
+}
 /*----------------------- final menu projeto ---------------------------*/
 /*------------------------ Contatos -----------------------*/
