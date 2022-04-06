@@ -27,13 +27,30 @@
                 </nav>
     <!--Fin da barrea de menus-->          
     <!--Inicio do corpo central-->            
-               <div class="container">
-                   <div class="contatos">
-                    
-                   </div>
-                   <div class="mensagem">
+               <div class="contatos" id="overlay">
+                    <form class="formulario">
+                        <h1>Contact Us</h1>
 
-                   </div>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" placeholder="Digite seu nome">
+                        <small class="error"></small>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" placeholder="Digite seu E-mail">
+                        <small class="error"></small>
+
+                        <label for="message">message</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+                        <small class="error"></small>
+
+                        <div class="center">
+                            <input type="submit" value="Enviar">
+                            <p class="" id="success"></p>
+                        </div>
+
+
+
+                    </form>
                </div>
     <!--Fim do corpo central-->  
             </div>
