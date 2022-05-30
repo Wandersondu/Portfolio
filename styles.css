@@ -45,6 +45,7 @@ body, a{
     width: 300px;
     
 }
+
 .header-brand .dutra{
     color: var(--secondary-color);
 }
@@ -92,20 +93,18 @@ body, a{
     
 }
 
-.home-img{
-    width: 400px;
+.home-img .logo{
+    width: 350px;
     height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid var(--color-border);
+    border: 5px solid var(--color-border);
     margin-top: 10px;
     border-radius: 10px;
    
 }
-.logo{
-    width: 300px;
-}
+
 
 .home-text{
     width: 400px;
@@ -187,26 +186,40 @@ body, a{
 /*---------------PROJETOS---------------*/
 
 .projetos{
-    height: 100vh;
+    background-color: #20c997;
+}
+.projetos-card{
     height: 100vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
     text-align: center;
-}
-.projetos-card{
-    width: 1100px;
-    height: 80vh;
+    width: 1170px;
+    height: 100vh;
     border: 2px solid var(--color-border);
     border-radius: 10px;
+   
     
 }
-
-.projetos-card-skill{
-    margin-top: 20px;
+.projetos-card-cards{
+    width: 550px;
+    height: 520px;
+    margin: 15px;
+    border: 1px solid var(--color-border);
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 0 5px var(--color-primary);
+    background-color: #777;
 }
+/*--------------CONTATOS----------------*/
 
-
+.contatos{
+    max-width: 1170px;
+    height: 100vh;
+    background-color: #777;
+ 
+}
 
 /*------------FOOTER--------*/
 
