@@ -3,11 +3,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: black;
+    
 }
 :root{
     --color-primary:#fff;
-    --secondary-color: #20c997;
+    --secondary-color: #20c3c9;
     --text-color: #777;
     --bg-color: #000;
     --color-indent: #b2caaeea;
@@ -15,14 +15,12 @@
 
 }
 
-bady{
-    
-    color: var(--text-color);
-}
+
 body, a{
     color: var(--text-color);
     text-decoration: none;
     transition: .4s;
+    background-color: black;
 }
 .container{
     max-width: 1170px;
@@ -39,6 +37,7 @@ body, a{
     width: 1170px;
     padding: 1.5rem 0;
     position: fixed;
+    background-color: #000;
 }
 .header-brand{ /*NOME WANDERSON*/
     font-size: 2.1rem;
@@ -53,7 +52,7 @@ body, a{
     color: var(--text-color);
 }
 .header-navbar{
-    font-size: 1rem;
+    font-size: 1.2rem;
     width: 500px;
     text-decoration: none;
 }
@@ -90,7 +89,7 @@ body, a{
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    
+   
 }
 
 .home-img .logo{
@@ -99,7 +98,7 @@ body, a{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 5px solid var(--color-border);
+    border: 2px solid var(--color-border);
     margin-top: 10px;
     border-radius: 10px;
    
@@ -124,23 +123,30 @@ body, a{
 
 
 .ability{ 
+    max-width: 1170px;
     height: 100vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
     text-align: center;
+    border-radius: 10px;
+    background: #1a2a6c;
+    background: -webkit-linear-gradient(to right, #0c040e, #100113, #1a2a6c);
+    background: linear-gradient(to right, #20012770, #b3b1b4, #20012770); 
+    margin-top: 10px;
 }
 .ability-estudos{
-    width: 450px;
-    height: 500px;
+    width: 500px;
+    height: 730px;
     border: 2px solid var(--color-border);
     border-radius: 10px;
     
 }
 .ability-estudos-title{
-    font-size: 22px;
-    margin-bottom: 20px;
-    margin-top: 15px;
+    
+    font-size: 25px;
+    margin-bottom: 25px;
+    margin-top: 35px;
 }
 .ability-estudos-skill {
     display: flex;
@@ -151,7 +157,7 @@ body, a{
 
 .skill-completa {
     width: 110px;
-    height: 120px;
+    height: 130px;
     margin: 15px;
     border: 1px solid var(--color-border);
     border-radius: 10px;
@@ -161,15 +167,12 @@ body, a{
     
 }
 .skill-completa:hover{
-    box-shadow: 0 0 8px var(--secondary-color);
+    box-shadow: 0 0 12px var(--secondary-color);
 }
-.ancora .skill-completa{
-    display: flex;
-    align-content: stretch;
-}
+
 .ability-estudando{
-    width: 450px;
-    height: 500px;
+    width: 500px;
+    height: 730px;
     border: 2px solid var(--color-border);
     border-radius: 10px;
 }
@@ -183,27 +186,34 @@ body, a{
     height: 150px;
     margin: 15px;
 }
+
 /*---------------PROJETOS---------------*/
 
 .projetos{
-    background-color: #20c997;
-}
-.projetos-card{
     height: 100vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    width: 1170px;
-    height: 100vh;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.projetos-card{
+    max-width: 1100px;
+    height: 730px;
     border: 2px solid var(--color-border);
     border-radius: 10px;
-   
-    
+    display: flex;
+            
 }
-.projetos-card-cards{
-    width: 550px;
-    height: 520px;
+.projetos-card {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.projetos-card .cards{
     margin: 15px;
     border: 1px solid var(--color-border);
     border-radius: 10px;
@@ -211,13 +221,20 @@ body, a{
     padding: 10px;
     box-shadow: 0 0 5px var(--color-primary);
     background-color: #777;
+    margin-top: 100px;
+}
+.cards{
+    width: 120px;
+    height: 180px;
+    background-color: #777;
+
 }
 /*--------------CONTATOS----------------*/
 
 .contatos{
     max-width: 1170px;
     height: 100vh;
-    background-color: #777;
+    background-color: #fff;
  
 }
 
