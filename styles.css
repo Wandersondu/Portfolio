@@ -15,6 +15,9 @@
 
 }
 
+body{
+    background: #000;
+}
 
 body, a{
     color: var(--text-color);
