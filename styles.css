@@ -7,7 +7,7 @@
 }
 :root{
     --color-primary:#fff;
-    --secondary-color: #20c3c9;
+    --secondary-color: #4cbb76;
     --text-color: #777;
     --bg-color: #000;
     --color-indent: #b2caaeea;
@@ -200,6 +200,7 @@ body, a{
     flex-direction: column;
     text-align: center;
     
+    
 }
 .box{
     display: flex;
@@ -222,7 +223,19 @@ body, a{
     flex-direction: column;
     align-items: center;
 }
-
+.card1{
+    background-image: url(./barber.png);
+}
+.card2{
+    background-image: url(./menu.png);
+}
+.card3{
+    background-image: url(./lista.png);
+}
+.card4{
+    background-image: url(./sahara.png);
+    
+}
 
 .btn{
     width: 130px;
@@ -238,8 +251,17 @@ body, a{
 .contatos{
     max-width: 1170px;
     height: 100vh;
-    background-color: rgb(241, 214, 214);
- margin-bottom: 10px;
+    background-color: rgba(228, 214, 241, 0.158);
+    margin-bottom: 10px;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+
+}
+.formulario, label{
+    width: 500px;
+    height: 50px;
 }
 
 
