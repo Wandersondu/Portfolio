@@ -199,7 +199,7 @@ body, a{
     display: flex;
     flex-direction: column;
     text-align: center;
-    
+    background-color: #735f79;
     
 }
 .box{
@@ -248,31 +248,23 @@ body, a{
 }
 /*--------------CONTATOS----------------*/
 
-.contatos{
+.formulario{
     max-width: 1170px;
     height: 100vh;
     background-color: rgba(228, 214, 241, 0.158);
-    margin-bottom: 10px;
-}
-.formulario{
-    display: flex;
-    flex-direction: column;
+    margin-bottom: 30px;
 
 }
-.formulario, label{
-    width: 500px;
-    height: 50px;
-}
-
-
 /*------------FOOTER--------*/
 
 
 footer{
     text-align: center;
     margin-bottom: 20px;
+
 }
 
 footer .footer{
     color:var(--secondary-color)
 }
+
