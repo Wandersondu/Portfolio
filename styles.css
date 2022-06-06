@@ -36,14 +36,14 @@ body, a{
     justify-content: space-between;
     text-align: center;
     align-items: center;
-    height: 70px;
+    height: 50px;
     width: 1170px;
     padding: 1.5rem 0;
     position: fixed;
     background-color: #000;
 }
 .header-brand{ /*NOME WANDERSON*/
-    font-size: 2.1rem;
+    font-size: 1.9rem;
     width: 300px;
     
 }
@@ -134,7 +134,7 @@ body, a{
     border-radius: 10px;
     background: #1a2a6c;
     background: -webkit-linear-gradient(to right, #0c040e, #100113, #1a2a6c);
-    background: linear-gradient(to right, #2001273f, #877192, #20012738); 
+    background: linear-gradient(to right, #20012725, #877192, #20012717); 
     margin-top: 10px;
     
 }
@@ -191,51 +191,57 @@ body, a{
     margin: 20px;
 }
 
-/*---------------PROJETOS---------------*/
+/*---------------------PROJETOS----------------------*/
 
 .projetos{
+    max-width: 1170px;
     height: 100vh;
-    margin-top: 50px;
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: #735f79;
-    
+        
+}
+.titulo-projetos{
+    font-size: 28px;
+    margin-bottom: 10px;
 }
 .box{
+    width: 1170px;
+    height: 100vh;
     display: flex;
-    flex-wrap: wrap;
-    text-align: center;
     justify-content: space-around;
-    margin-top: 20px;
+    text-align: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    margin: 0 auto;
 }
 .card{
-    background-image: url(./Logo.png);
+    margin-top: 20px;
     width: 200px;
-    height: 300px;
-    border: 2px solid var(--color-border);
-    margin-top: 30px;
-    border-radius: 10px;
-    padding-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
+    height: 250px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.card1{
-    background-image: url(./barber.png);
+
+#link{
+    font-size: 18px;
+    margin-bottom: 20px;
 }
-.card2{
-    background-image: url(./menu.png);
-}
-.card3{
-    background-image: url(./lista.png);
-}
-.card4{
-    background-image: url(./sahara.png);
+
+.foto-logo{
+    border-radius: 12px;
+    width: 200px;
+    height: 250px;
+    
     
 }
+
+
+
+/*----------------------- CONTATOS----------------------*/
+
 
 .btn{
     width: 130px;
@@ -246,7 +252,6 @@ body, a{
     border-radius: 8px;
     border: 1px solid var(--color-border);
 }
-/*--------------CONTATOS----------------*/
 
 .formulario{
     max-width: 1170px;
@@ -255,7 +260,7 @@ body, a{
     margin-bottom: 30px;
 
 }
-/*------------FOOTER--------*/
+/*----------------------FOOTER-------------------------*/
 
 
 footer{
