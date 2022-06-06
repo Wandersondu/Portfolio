@@ -242,7 +242,40 @@ body, a{
 
 /*----------------------- CONTATOS----------------------*/
 
+.formulario{
+    max-width: 1170px;
+    height: 100vh;
+    background-color: rgba(228, 214, 241, 0.158);    
+}
 
+.contatos{
+    
+    display: flex;
+    justify-content: center;
+    max-width: 1170px;
+    height: 100vh;
+} 
+.titleContatos{
+    text-align: center;
+    margin-bottom: 15px;
+    padding-top: 10px;
+}
+input{
+    width: 400px;
+    height: 20px;
+}
+.dados {
+    width: 500px;
+    height: 600px;
+    justify-content: space-around;
+    
+}
+.social-midia{
+
+    width: 500px;
+    height: 600px;
+      
+}
 .btn{
     width: 130px;
     height: 30px;
@@ -253,13 +286,6 @@ body, a{
     border: 1px solid var(--color-border);
 }
 
-.formulario{
-    max-width: 1170px;
-    height: 100vh;
-    background-color: rgba(228, 214, 241, 0.158);
-    margin-bottom: 30px;
-
-}
 /*----------------------FOOTER-------------------------*/
 
 
