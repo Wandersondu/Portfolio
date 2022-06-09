@@ -200,7 +200,7 @@ body, a{
     display: flex;
     flex-direction: column;
     text-align: center;
-        
+    
 }
 .titulo-projetos{
     font-size: 28px;
@@ -245,62 +245,84 @@ body, a{
 .formulario{
     max-width: 1170px;
     height: 100vh;
-    background-color: rgba(228, 214, 241, 0.158);    
+    background: #1a2a6c;
+    background: -webkit-linear-gradient(to right, #0c040e, #100113, #1a2a6c);
+    background: linear-gradient(to right, #20012725, #877192, #20012717); 
 }
 
-.contatos{
-    display: flex;
-    justify-content: center;
-    max-width: 1170px;
-    height: 100vh;
-} 
 .titleContatos{
     text-align: center;
     margin-bottom: 15px;
     padding-top: 10px;
+    color: rgba(230, 224, 233, 0.63);
 }
+.contatos{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1170px;
+    height: 90vh;
+    
+} 
 input{
     width: 100%;
-    height: 25px;
-    margin-top: 5px;
-    background-color: red;
+    height: 30px;
+    border-radius: 7px;
+    padding-left: 7px;
+    border: none;
+    box-shadow: 0 0 8px 2px rgb(19, 1, 24);
 }
 label{
-    background-color: green;
     width: 100%;
-    height: 15px;
-    margin-top: 5px;
+    height: 30px;
+    border-radius: 7px;
+    padding-left: 7px;
+    border: none;
+    
 }
 textarea{
-    background-color: blue;
-    margin-top: 5px
-
+    margin-top: 1px;
+    border-radius: 7px;
+    padding-top: 7px;
+    padding-left: 7px;
+    border: none;
+    box-shadow: 0 0 8px 2px rgb(19, 1, 24);
 }
+
 .dados {
     display: flex;
+    justify-content: space-around;
     flex-direction: column;
     align-content: flex-start;
-    background-color: #1a2a6c52;
-    width: 500px;
+    border: 2px solid var(--color-border);
+    padding: 10px;
+    width: 450px;
+    height: 550px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.social-midia{
+    /*background-color: #735f793f;*/
+    width: 400px;
     height: 500px;
     margin: 0 auto;
 }
-.social-midia{
-    background-color: #735f793f;
-    width: 500px;
-    height: 500px;
-      
-}
 .btn{
-    width: 130px;
+    width: 150px;
     height: 30px;
-    background: #000000;
-    background: -webkit-linear-gradient(to right, #434343, #000000);
-    background: linear-gradient(to right, #d8c4df, #1c0129); 
+    cursor: pointer;
     border-radius: 8px;
     border: 1px solid var(--color-border);
+    color: rgb(247, 233, 233);
+    background-color: #1b151f34;
+}
+.btn:hover{
+    background-color: #4cbb76;
 }
 
+.social-midia{
+    display: flex;
+    justify-content: center;
+}
 /*----------------------FOOTER-------------------------*/
 
 
