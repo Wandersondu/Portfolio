@@ -8,10 +8,10 @@
 :root{
     --color-primary:#fff;
     --secondary-color: #4cbb76;
-    --text-color: #777;
+    --text-color: rgba(163, 167, 164, 0.87);
     --bg-color: #000;
     --color-indent: #b2caaeea;
-    --color-border:rgb(63, 61, 61);
+    --color-border:rgb(218, 190, 190);
 
 }
 
@@ -27,6 +27,7 @@ body, a{
 }
 .container{
     max-width: 1170px;
+    height: 100vh;
     margin: 0 auto;
     background-color: #000;
     
@@ -125,6 +126,11 @@ body, a{
 /*-----------------HABILIDADES-------------*/
 
 
+.title-habilidades{
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+}
 .ability{ 
     height: 100vh;
     display: flex;
@@ -132,16 +138,16 @@ body, a{
     align-items: center;
     text-align: center;
     border-radius: 10px;
-    background: #1a2a6c;
-    background: -webkit-linear-gradient(to right, #0c040e, #100113, #1a2a6c);
-    background: linear-gradient(to right, #20012725, #877192, #20012717); 
+    background: #216c1a;
+    background: -webkit-linear-gradient(to right, #040e09, #01130c, #040e09);
+    background: linear-gradient(to right, #01271125, #8dcf9ac0, #01271125); 
     margin-top: 10px;
     
 }
 .ability-estudos{
     width: 500px;
     height: 600px;
-    border: 2px solid var(--color-border);
+    border: 1px solid var(--color-border);
     border-radius: 10px;
     cursor: pointer;
 }
@@ -175,7 +181,7 @@ body, a{
 .ability-estudando{
     width: 500px;
     height: 600px;
-    border: 2px solid var(--color-border);
+    border: 1px solid var(--color-border);
     border-radius: 10px;
     cursor: pointer;
 }
@@ -196,7 +202,7 @@ body, a{
 .projetos{
     max-width: 1170px;
     height: 100vh;
-    margin-top: 30px;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -204,7 +210,7 @@ body, a{
 }
 .titulo-projetos{
     font-size: 28px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .box{
     width: 1170px;
@@ -215,6 +221,9 @@ body, a{
     align-content: flex-start;
     flex-wrap: wrap;
     margin: 0 auto;
+    background: #216c1a;
+    background: -webkit-linear-gradient(to right, #040e09, #01130c, #040e09);
+    background: linear-gradient(to right, #01271125, #8dcf9ac0, #01271125); 
 }
 .card{
     margin-top: 20px;
@@ -235,104 +244,80 @@ body, a{
     width: 200px;
     height: 250px;
     
-    
 }
 
 
+/*-----------------------LOCATION------------------------*/
 
-/*----------------------- CONTATOS----------------------*/
-
-.formulario{
-    max-width: 1170px;
+.location{
     height: 100vh;
-    background: #1a2a6c;
-    background: -webkit-linear-gradient(to right, #0c040e, #100113, #1a2a6c);
-    background: linear-gradient(to right, #20012725, #877192, #20012717); 
+    padding: 30px 0;
+    
 }
-
-.titleContatos{
+.title-contatos{
     text-align: center;
-    margin-bottom: 15px;
-    padding-top: 10px;
-    color: rgba(230, 224, 233, 0.63);
+    font-size: 28px;
+    margin-bottom: 20px;
 }
-.contatos{
-    display: flex;
-    justify-content: space-around;
-    max-width: 1170px;
-    height: 90vh;
-    
-} 
-input{
+.location .icons{
+    background: #216c1a;
+    background: -webkit-linear-gradient(to right, #040e09, #01130c, #040e09);
+    background: linear-gradient(to right, #01271125, #8dcf9ac0, #01271125); 
+    padding: 40px;
     width: 100%;
-    height: 30px;
-    border-radius: 7px;
-    padding-left: 7px;
-    border: none;
-    box-shadow: 0 0 8px 2px rgb(19, 1, 24);
-}
-label{
-    width: 100%;
-    height: 30px;
-    border-radius: 7px;
-    padding-left: 7px;
-    border: none;
-    
-}
-textarea{
-    margin-top: 1px;
-    border-radius: 7px;
-    padding-top: 7px;
-    padding-left: 7px;
-    border: none;
-    box-shadow: 0 0 8px 2px rgb(19, 1, 24);
-}
-
-.dados {
     display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    align-content: flex-start;
-    border: 2px solid var(--color-border);
-    padding: 10px;
-    width: 450px;
-    height: 550px;
-    margin: 0 auto;
+    justify-content: space-between;
+}
+.location .icons .info{
+    display: flex;
+    align-items: center;
+}
+.location .icons .info .nome{
+    width: 20px;
+}
+.location .icons .info .icon{
+    margin-right: 10px;
+    border: 1.8px solid var(--color-border);
     border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.social-midia{
-    /*background-color: #735f793f;*/
-    width: 400px;
-    height: 500px;
-    margin: 0 auto;
+.location .icons .info .text span{
+    display: block;
+    font-size: 16px;
 }
-.btn{
-    width: 150px;
-    height: 30px;
-    cursor: pointer;
-    border-radius: 8px;
-    border: 1px solid var(--color-border);
-    color: rgb(247, 233, 233);
-    background-color: #1b151f34;
+.location .icons .info .text span:first-child{
+    color: rgba(222, 224, 223, 0.979);
+    margin-bottom: 10px;
 }
-.btn:hover{
-    background-color: #4cbb76;
+.location .icons .info .text span:last-child{
+    color: var(--text-color);
+    
 }
 
-.social-midia{
-    display: flex;
-    justify-content: center;
+.location .maps{
+    width: 100%;
+}
+.location .maps iframe{
+    width: 100%;
+    height: 70vh;
+    margin-top: 10px;
+    border-radius: 10px;
 }
 /*----------------------FOOTER-------------------------*/
 
 
 footer{
     text-align: center;
-    margin-bottom: 20px;
-
+    padding-bottom: 20px;
 }
 
 footer .footer{
-    color:var(--secondary-color)
+    color:var(--secondary-color);
+    
 }
 
