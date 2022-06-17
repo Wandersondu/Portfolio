@@ -14,26 +14,28 @@
     <link rel="stylesheet" href="styles.css">    
 </head>
 <body>
-    <!-- INICIO -->
+        <!--------------- INICIO --------------->
     <main class="container">
-        <header class="header">
+        <section class="header" >
 
             <a href="" class="header-brand">Wanderson <span class="dutra"> Dutra</span></a>
 
             <nav class="header-navbar">
                 <ul class="header-navbar-ul">
+
                     <li>
-                        <a href="#" class="active">Home</a>
+                        <a href="#home" class="active">Home</a>
                     </li>
                     <li>
-                        <a href="#">Habilidades</a>
+                        <a href="#habilidades" class="active">Habilidades</a>
                     </li>
                     <li>
-                        <a href="#">Projetos</a>
-                        <li>
-                            <a href="#">Contato</a>
-                        </li>
+                        <a href="#projects" class="active">Projetos</a>
                     </li>
+                    <li>
+                        <a href="#location" class="active">Contato</a>
+                    </li>
+                    
                 </ul>
             </nav>
             <div class="header-social-media">
@@ -55,11 +57,11 @@
                     </li>
                 </ul>
             </div>    
-        </header>
+        </section>
         
-        <!--INICIO MAIN-->
+        <!--------------- INICIO HOME --------------->
         
-        <main>
+        <section id="home">
             <div class="home">
                 <div class="home-img" id="img">
                     <img class="logo" src="./logotop.jpg" alt="">
@@ -70,14 +72,13 @@
                     <p>Junior Frontend Developer</p>
                 </div>
             </div>
-        </main>
+        </section>
         
-        <!-- FIM MAIN-->
-        <!-- INICIO HABILIDADES -->
+        <!--------------- FIM HOME --------------->
+        <!--------------- INICIO HABILIDADES --------------->
 
-        <h2 class="title-habilidades">Habilidades</h2>
-        <section class="ability">
-
+        <section class="ability" id="habilidades">
+                      
             <div class="ability-estudos">              
                 <h2 class="ability-estudos-title">Estudos Concluidos</h2>
                                 
@@ -111,8 +112,8 @@
         <!-- FIM HABILIDADES -->
         <!-- INICIO PROJETOS -->
 
-        <section class="projetos" >
-            <h2 class="titulo-projetos">Projetos</h2>
+        <section class="projetos"  id="projects">
+            
             <div class="box">
 
                 <div class="card card1">                       
@@ -149,10 +150,9 @@
         <!-- FIM PROJETOS -->
         <!-----INICIO CONTATOS----->
 
-        <!-----FIM CONTATOS----->
-        <section class="location">
+        <section class="location" id="location">
             <div class="container">
-                <h2 class="title-contatos">Contatos</h2>
+                
                 <div class="icons">
 
                     <div class="info">
@@ -164,7 +164,7 @@
                             <span>Wanderson Rocha Dutra</span>
                         </div>
                     </div> 
-
+                    
                     <div class="info">
                         <div class="icon">
                             <img src="./icon.png" alt="icon">
@@ -174,7 +174,7 @@
                             <span>Rua Santo Antônio dos Capuchos</span>
                         </div>
                     </div> 
-
+                    
                     <div class="info">
                         <div class="icon">
                             <img src="./cell.png" alt="icon">
@@ -199,14 +199,15 @@
                 </div>
                 <div class="maps">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3112.848933786659!2d-9.14374428426509!3d38.721277179598076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1933830b60b8fd%3A0x76277e5b757c4c4f!2sR.%20de%20Santo%20Ant%C3%B3nio%20dos%20Capuchos%2056%2C%201150-315%20Lisboa!5e0!3m2!1spt-PT!2spt!4v1655162457963!5m2!1spt-PT!2spt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <footer>
+                        <p>Desenvolvido por <span class="footer">Wanderson Dutra</span> | Todos os direiros reservados &copy; 2022</p>
+                    </footer>
                 </div>
             </div>
-
+            
         </section>
-
-        <footer>
-            <p>Desenvolvido por <span class="footer">Wanderson Dutra</span> | Todos os direiros reservados &copy; 2022</p>
-        </footer>
+        <!-----FIM CONTATOS----->
+        
     </main>
 </body>
 </html>

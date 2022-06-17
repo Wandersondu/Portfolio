@@ -8,7 +8,7 @@
 :root{
     --color-primary:#fff;
     --secondary-color: #4cbb76;
-    --text-color: rgba(163, 167, 164, 0.87);
+    --text-color: rgb(163, 167, 164);
     --bg-color: #000;
     --color-indent: #b2caaeea;
     --color-border:rgb(218, 190, 190);
@@ -37,11 +37,12 @@ body, a{
     justify-content: space-between;
     text-align: center;
     align-items: center;
-    height: 50px;
+    height: 70px;
     width: 1170px;
     padding: 1.5rem 0;
     position: fixed;
     background-color: #000;
+    margin-bottom: 5px;
 }
 .header-brand{ /*NOME WANDERSON*/
     font-size: 1.9rem;
@@ -102,10 +103,10 @@ body, a{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid var(--color-border);
+    border: 1px solid var(--color-border);
     margin-top: 10px;
     border-radius: 10px;
-   
+   box-shadow: 0 0 8px 0.5px rgba(255, 255, 255, 0.644);
 }
 
 
@@ -126,15 +127,10 @@ body, a{
 /*-----------------HABILIDADES-------------*/
 
 
-.title-habilidades{
-    font-size: 28px;
-    margin-bottom: 20px;
-    text-align: center;
-}
 .ability{ 
     height: 100vh;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     text-align: center;
     border-radius: 10px;
@@ -142,11 +138,16 @@ body, a{
     background: -webkit-linear-gradient(to right, #040e09, #01130c, #040e09);
     background: linear-gradient(to right, #01271125, #8dcf9ac0, #01271125); 
     margin-top: 10px;
-    
+    padding-top: 10px;
+}
+.ability{
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
 }
 .ability-estudos{
-    width: 500px;
-    height: 600px;
+    width: 1000px;
+    height: 300px;
     border: 1px solid var(--color-border);
     border-radius: 10px;
     cursor: pointer;
@@ -155,6 +156,7 @@ body, a{
     font-size: 25px;
     margin-bottom: 25px;
     margin-top: 35px;
+    color: rgba(222, 224, 223, 0.979);
 }
 .ability-estudos-skill {
     display: flex;
@@ -179,8 +181,8 @@ body, a{
 }
 
 .ability-estudando{
-    width: 500px;
-    height: 600px;
+    width: 1000px;
+    height: 300px;
     border: 1px solid var(--color-border);
     border-radius: 10px;
     cursor: pointer;
@@ -208,15 +210,12 @@ body, a{
     text-align: center;
     
 }
-.titulo-projetos{
-    font-size: 28px;
-    margin-bottom: 20px;
-}
+
 .box{
     width: 1170px;
     height: 100vh;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     text-align: center;
     align-content: flex-start;
     flex-wrap: wrap;
@@ -224,21 +223,26 @@ body, a{
     background: #216c1a;
     background: -webkit-linear-gradient(to right, #040e09, #01130c, #040e09);
     background: linear-gradient(to right, #01271125, #8dcf9ac0, #01271125); 
+    margin-top: 20px;
 }
 .card{
-    margin-top: 20px;
+    margin-top: 90px;
     width: 200px;
     height: 250px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 #link{
     font-size: 18px;
     margin-bottom: 20px;
+    color: rgba(222, 224, 223, 0.979);
 }
-
+#link:hover{
+    color: var(--secondary-color);
+}
 .foto-logo{
     border-radius: 12px;
     width: 200px;
@@ -251,14 +255,11 @@ body, a{
 
 .location{
     height: 100vh;
-    padding: 30px 0;
+    padding: 40px 0;
+    margin-top: 25px;
     
 }
-.title-contatos{
-    text-align: center;
-    font-size: 28px;
-    margin-bottom: 20px;
-}
+
 .location .icons{
     background: #216c1a;
     background: -webkit-linear-gradient(to right, #040e09, #01130c, #040e09);
@@ -271,6 +272,7 @@ body, a{
 .location .icons .info{
     display: flex;
     align-items: center;
+    margin-top: 5px;
 }
 .location .icons .info .nome{
     width: 20px;
@@ -307,17 +309,18 @@ body, a{
     height: 70vh;
     margin-top: 10px;
     border-radius: 10px;
+    margin-bottom: 20px;
 }
 /*----------------------FOOTER-------------------------*/
 
 
 footer{
     text-align: center;
-    padding-bottom: 20px;
+    
 }
 
 footer .footer{
     color:var(--secondary-color);
-    
+    margin-bottom: 200px;
 }
 
