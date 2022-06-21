@@ -44,6 +44,8 @@ body, a{
     background-color: #000;
     margin-bottom: 5px;
 }
+
+
 .header-brand{ /*NOME WANDERSON*/
     font-size: 1.9rem;
     width: 300px;
@@ -94,7 +96,7 @@ body, a{
     justify-content: space-around;
     align-items: center;
     text-align: center;
-   
+    
 }
 
 .home-img .logo{
@@ -128,11 +130,13 @@ body, a{
 
 
 .ability{ 
+    max-width: 1170px;
     height: 100vh;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
+    flex-direction: column;
     border-radius: 10px;
     background: #216c1a;
     background: -webkit-linear-gradient(to right, #040e09, #01130c, #040e09);
@@ -140,11 +144,7 @@ body, a{
     margin-top: 10px;
     padding-top: 10px;
 }
-.ability{
-    display: flex;
-    flex-direction: column;
-    margin-top: 90px;
-}
+
 .ability-estudos{
     width: 1000px;
     height: 300px;
@@ -215,10 +215,9 @@ body, a{
     width: 1170px;
     height: 100vh;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     text-align: center;
-    align-content: flex-start;
-    flex-wrap: wrap;
+    align-content: space-around;
     margin: 0 auto;
     background: #216c1a;
     background: -webkit-linear-gradient(to right, #040e09, #01130c, #040e09);
@@ -324,3 +323,104 @@ footer .footer{
     margin-bottom: 200px;
 }
 
+
+
+/*------------------------RESPONSIVE----------------*/
+
+
+
+@media screen and (max-width: 768px){
+    .header{
+        width: 100vw;        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .header-navbar{
+        font-size: 0.9rem;
+        justify-content: center;
+    }
+    .header-social-media{
+        display: none;   
+    }
+    .header-brand{
+        display: none;
+    }
+
+/*-----------HOME-----------*/
+    .home{
+        width: 100vw;
+        height: 50vh;
+    }
+    .home-img{
+        display: none;
+    }
+
+/*----------ABILITY----------*/
+    .ability{
+        width: 100vw;
+        
+    }
+    .ability-estudos, .ability-estudando{
+        width: 500px;
+        height: 170px;
+        border: none;
+    }
+    .ability-estudos-title{
+        font-size: 16px;
+        margin-bottom: 10px;
+        margin-top: 15px;
+
+    }
+    .skill-completa{
+        width: 60px;
+        height: 70px;
+        margin: 5px;
+        padding: 4px;
+    }
+
+/*-----------PROJETOS ---------*/
+
+    .projetos{
+        width: 100vw;
+        height: 50vh;
+    }
+    .box{
+        width: 100vw;
+        
+    }
+    .card{
+        margin-top: 50px;
+        width: 50px;
+        height: 100px;
+    }
+    .foto-logo{
+        width: 50px;
+        height: 100px;
+    }
+    #link{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    /*-----------CONTATOS ---------*/
+
+    .location{
+        width: 100vw;
+    }
+    .location .icons{
+        padding: 20px;
+    }
+    .location .icons .info .icon{
+        width: 30px;
+        height: 30px;
+        padding: 4px;
+
+    }
+    .location .icons .info .nome{
+        width: 12px;
+    }
+    .location .icons .info .text span{
+        font-size: 12px;
+    }
+}
