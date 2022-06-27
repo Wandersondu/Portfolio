@@ -91,19 +91,14 @@ body, a{
 /*--------------FIM HEADER-------------*/
 /*--------------HOME-------------*/
 
-.central-page{
-  
 
-
-    
-}
 .home{
     height: 100vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    
+    margin-bottom: 70px;
 }
 
 .home-img .logo{
@@ -134,33 +129,42 @@ body, a{
     margin: 10px;
 }
 
-/*-----------------HABILIDADES-------------*/
+/*--------------HABILIDADES------------------*/
 
+.habilidades{
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
 
-.ability{ 
+.box{
     width: 100%;
     height: 100vh;
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
     text-align: center;
-    flex-direction: column;
-    border-radius: 10px;
+    flex-direction: row;
+    align-content: flex-start;
     background: #216c1a;
     background: -webkit-linear-gradient(to right, #040e09, #01130c, #040e09);
-    background: linear-gradient(to right, #01271125, #8dcf9ac0, #01271125);     
+    background: linear-gradient(to right, #01271125, #8dcf9ac0, #01271125); 
     border: 1px solid var(--color-border);
     border-radius: 10px;
+    padding: 10px;
     box-shadow: 0 0 8px 0.5px rgba(255, 255, 255, 0.644);
-    margin-top: 70px;
 }
 
 .ability-estudos{
-    width: 80vw;
-    height: 230px;
-
+    width: 100%;
+    max-height: 250px;
+    margin-top: 10px;
     cursor: pointer;
     
-    margin-bottom: 30px;
 }
 .ability-estudos-title{
     font-size: 25px;
@@ -183,17 +187,23 @@ body, a{
     border-radius: 10px;
     text-align: center;
     padding: 10px;
-    box-shadow: 0 0 5px var(--color-primary);
-    
+    box-shadow: 0 0 8px 0.5px rgba(255, 255, 255, 0.644);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
 }
 .skill-completa:hover{
-    box-shadow: 0 0 12px var(--secondary-color);
+    box-shadow: 0 0 8px rgba(6, 37, 26, 0.555);
+    transform: translateY(-10px);
 }
 
+/* segunda box */
+
 .ability-estudando{
-    width: 80vw;
-    height: 230px;
+    width: 100%;
+    max-height: 250px;
     cursor: pointer;
+    
 }
 
 .ability-estudando-skill{
@@ -207,12 +217,12 @@ body, a{
     margin: 20px;
 }
 
+
 /*---------------------PROJETOS----------------------*/
 
 .projetos{
     width: 100%;
-    height: 100vh;
-    margin-top: 2px;
+    height: 95vh;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -223,33 +233,51 @@ body, a{
 
 .box{
     width: 100%;
-    height: 195vh;
+    height: 95vh;
     display: flex;
     flex-wrap: wrap;
     text-align: center;
     flex-direction: row;
     align-content: flex-start;
+    justify-content: center;
     margin-top: 55px;
     background: #216c1a;
     background: -webkit-linear-gradient(to right, #040e09, #01130c, #040e09);
     background: linear-gradient(to right, #01271125, #8dcf9ac0, #01271125); 
     border: 1px solid var(--color-border);
     border-radius: 10px;
-    padding: 10px;
+    padding: 8px;
     box-shadow: 0 0 8px 0.5px rgba(255, 255, 255, 0.644);
 }
 .card{
-    padding-top: 50px;
     width: 150px;
     height: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    box-shadow: 0 0 8px 0.5px rgba(255, 255, 255, 0.644);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    background: #202020; 
+    background: -webkit-linear-gradient(to left, #434343b4, #0000006e); 
+    background: linear-gradient(to left, #43434359, #00000080);
+
+}
+
+.card:hover{
+    box-shadow: 0 0 8px rgba(6, 37, 26, 0.555);
+    transform: translateY(10px);
 }
 
 #link{
-    font-size: 18px;
+    font-size: 14px;
     margin-bottom: 20px;
     color: rgba(222, 224, 223, 0.979);
 }
@@ -258,9 +286,9 @@ body, a{
 }
 .foto-logo{
     border-radius: 12px;
-    width: 150px;
-    height: 250px;
-    
+    width: 130px;
+    height: 230px;
+    background-color: #4cbb76;
 }
 
 
@@ -268,8 +296,8 @@ body, a{
 
 .location{
     width: 100%;
-    height: 100vh;
-    padding: 5px ;
+    height: 95vh;
+    padding: 2px ;
     margin-top: 5px;
 
 }
@@ -284,7 +312,8 @@ body, a{
     border: 1px solid var(--color-border);
     border-radius: 10px;
     box-shadow: 0 0 8px 0.5px rgba(255, 255, 255, 0.644);
-    margin-top: 70px;
+    margin-top: 62px;
+    margin-bottom: 5px;
 }
 .location .icons .info{
     display: flex;
@@ -307,7 +336,7 @@ body, a{
 }
 .location .icons .info .text span{
     display: block;
-    font-size: 16px;
+    font-size: 14px;
 }
 .location .icons .info .text span:first-child{
     color: rgba(222, 224, 223, 0.979);
@@ -333,6 +362,7 @@ body, a{
 
 footer{
     text-align: center;
+    margin-bottom: 5px;
 }
 
 
