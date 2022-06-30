@@ -43,7 +43,7 @@ body, a{
     background-color: #000;
     border-radius: 10px;
     box-shadow: 0 0 8px 0.5px rgba(255, 255, 255, 0.644);
-
+    
 }
 
 
@@ -86,6 +86,7 @@ body, a{
     justify-content: space-around;
     width: 100px;
     font-size: 1.3rem;
+    margin-right: 15px;
     
 }
 /*--------------FIM HEADER-------------*/
@@ -187,10 +188,11 @@ body, a{
     border-radius: 10px;
     text-align: center;
     padding: 10px;
-    box-shadow: 0 0 8px 0.5px rgba(255, 255, 255, 0.644);
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
     background-position: center;
     background-size: cover;
     transition: transform 0.5s;
+    background-color: rgba(0, 0, 0, 0.527);
 }
 .skill-completa:hover{
     box-shadow: 0 0 8px rgba(6, 37, 26, 0.555);
@@ -262,14 +264,11 @@ body, a{
     padding-top: 20px;
     padding-bottom: 10px;
     margin-top: 30px;
-    box-shadow: 0 0 8px 0.5px rgba(255, 255, 255, 0.644);
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
     background-position: center;
     background-size: cover;
     transition: transform 0.5s;
-    background: #202020; 
-    background: -webkit-linear-gradient(to left, #434343b4, #0000006e); 
-    background: linear-gradient(to left, #43434359, #00000080);
-
+    background-color: rgba(0, 0, 0, 0.527);
 }
 
 .card:hover{
@@ -356,11 +355,12 @@ body, a{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.527);
     cursor: pointer;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
 }
 .icons .info .icon:hover{
-    box-shadow: 0 0 8px 0.5px rgba(255, 255, 255, 0.644); 
+    box-shadow: 0 0 8px rgba(6, 37, 26, 0.555);
 }
 
 .location .icons .info .text span{
@@ -402,7 +402,8 @@ footer{
     font-weight: 500;
     letter-spacing: 1px;
     bottom: 0;
-
+    margin-top: 15px;
+    
 }
 
 
