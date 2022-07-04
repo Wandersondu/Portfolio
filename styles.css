@@ -218,7 +218,8 @@ body, a{
     font-size: 25px;
     margin-bottom: 10px;
     margin-top: 25px;
-    color: rgb(198, 201, 198);
+    color: rgb(65, 71, 65);
+
 }
 .ability-estudos-skill {
     display: flex;
@@ -291,17 +292,17 @@ body, a{
     align-content: flex-start;
     justify-content: center;
     margin-top: 55px;
-    background: #216c1a;
+    background: #2a5f25;
     background: -webkit-linear-gradient(to right, #040e09, #01130c, #040e09);
-    background: linear-gradient(to right, #01271125, #8dcf9ac0, #01271125); 
+    background: linear-gradient(to right, #01271125, #acd3b4, #01271125); 
     border: 1px solid var(--color-border);
     border-radius: 10px;
     padding: 8px;
     box-shadow: 0 0 8px 0.5px rgba(255, 255, 255, 0.644);
 }
 .card{
-    width: 220px;
-    height: 300px;
+    width: 200px;
+    height: 230px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -311,14 +312,13 @@ body, a{
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     border-left: 1px solid rgba(255, 255, 255, 0.5);
     margin: 20px;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 10px;
-    margin-top: 30px;
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
     background-position: center;
     background-size: cover;
     transition: transform 0.5s;
-    background: rgba(12, 36, 13, 0.363);
+    background: rgba(5, 20, 6, 0.897);
     overflow: hidden;
 }
 
@@ -333,11 +333,12 @@ body, a{
     padding: 12px 20px;
     background: #2e3a2c6e;
     border-radius: 15px;
+    border: 2px solid var(--color-border);
 }
 
 #link{
     font-size: 14px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     color: rgba(222, 224, 223, 0.979);
 }
 #link:hover{
@@ -345,8 +346,9 @@ body, a{
 }
 .foto-logo{
     border-radius: 12px;
-    width: 180px;
-    height: 230px;
+    width: 160px;
+    height: 180px;
+    position: relative;
 }
 
 
