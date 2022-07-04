@@ -29,6 +29,7 @@ body, a{
     height: 100vh;
     margin: 0 auto;
     background-color: #000;
+    position: relative;
     
 }
 .header{
@@ -209,7 +210,7 @@ body, a{
 .ability-estudos{
     width: 100%;
     max-height: 250px;
-    margin-top: 10px;
+    margin-top: 20px;
     cursor: pointer;
     
 }
@@ -251,7 +252,7 @@ body, a{
     width: 100%;
     max-height: 250px;
     cursor: pointer;
-    
+    margin-top: 60px;
 }
 
 .ability-estudando-skill{
@@ -299,13 +300,16 @@ body, a{
     box-shadow: 0 0 8px 0.5px rgba(255, 255, 255, 0.644);
 }
 .card{
-    width: 150px;
-    height: 200px;
+    width: 220px;
+    height: 300px;
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     border-radius: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
     margin: 20px;
     padding-top: 20px;
     padding-bottom: 10px;
@@ -314,12 +318,21 @@ body, a{
     background-position: center;
     background-size: cover;
     transition: transform 0.5s;
-    background-color: rgba(0, 0, 0, 0.527);
+    background: rgba(12, 36, 13, 0.363);
+    overflow: hidden;
 }
 
 .card:hover{
     box-shadow: 0 0 8px rgba(6, 37, 26, 0.555);
     transform: translateY(10px);
+}
+
+.projeto .card a{
+    position: relative;
+    display: inline-block;
+    padding: 12px 20px;
+    background: #2e3a2c6e;
+    border-radius: 15px;
 }
 
 #link{
@@ -332,7 +345,7 @@ body, a{
 }
 .foto-logo{
     border-radius: 12px;
-    width: 130px;
+    width: 180px;
     height: 230px;
 }
 

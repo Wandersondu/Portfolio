@@ -68,24 +68,20 @@
                 <div class="home-img" id="img">
                    <img class="logo" src="./logotop.jpg" alt=""> 
                 </div>
-
-                    <div class="home-text" id="text">
-                        <div class="estatico">Eu sou</div>
-                        <ul class="dinamico">
-                            <li><span>Desenvolvedor</span></li>
-                            <li><span>Freelancer</span></li>
-                            <li><span>Influencer</span></li>
-                        </ul>
-                    </div>
+                <div class="home-text" id="text">
+                    <div class="estatico">Eu sou</div>
+                    <ul class="dinamico">
+                        <li><span>Desenvolvedor</span></li>
+                        <li><span>Freelancer</span></li>
+                        <li><span>Influencer</span></li>
+                    </ul>
+                    
+                </div>
             </div>
         </section>
         
         <!--------------- FIM HOME --------------->
         <!--------------- INICIO HABILIDADES --------------->
-
-
-
-        <!-- FIM HABILIDADES -->
         
         <section class="habilidades"  id="habilidades">
             
@@ -121,12 +117,12 @@
 
             </div>           
         </section>
-
+        <!-- FIM HABILIDADES -->
         <!-- INICIO PROJETOS -->
 
         <section class="projetos"  id="projects">
             
-            <div class="box">
+            <div class="box projeto">
 
                 <div class="card card1">                       
                     <a class="link" href="./BarberShop/index.html" id="link">Barber Shop</a>
@@ -221,5 +217,10 @@
         <!-----FIM CONTATOS----->
 
     </main>
+    <script type="text/javascript" src="./vanilla-tilt.babel.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card"));
+        VanillaTilt.init(document.querySelectorAll(".skill-completa"));
+    </script>
 </body>
 </html>
