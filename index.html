@@ -219,8 +219,17 @@
     </main>
     <script type="text/javascript" src="./vanilla-tilt.babel.js"></script>
     <script>
-        VanillaTilt.init(document.querySelectorAll(".card"));
-        VanillaTilt.init(document.querySelectorAll(".skill-completa"));
+        VanillaTilt.init(document.querySelectorAll(".card"),{
+            max: 35,
+            speed: 300,
+            glare: true,
+            "max-glare": 1,
+        });
+        VanillaTilt.init(document.querySelectorAll(".skill-completa"),{
+            max: 35,
+            speed: 300,
+            glare: false
+        });
     </script>
 </body>
 </html>
