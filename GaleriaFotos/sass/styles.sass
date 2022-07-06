@@ -1,0 +1,41 @@
+@use 'variables'
+@use 'mixins'
+
+
+*
+    font-family: 'Josefin sans'
+    padding: 0
+    margin: 0
+    box-sizing: border-box
+
+body
+     
+    background: linear-gradient(to right, #f775776b, #e1eec3)
+    color: variables.$text-color
+
+    a
+        color: variables.$text-color
+        text-decoration: none
+        transition: .4s
+    
+    ul
+        list-style: none
+
+.header
+    display: flex
+    justify-content: space-between
+    @include mixins.container
+
+
+    &-brand //.header-brand
+        color: variables.$primary-color
+        font-size: 3rem
+
+
+    &-navbar
+        
+        ul
+            height: 100%
+            @include mixins.flex-center
+
+
