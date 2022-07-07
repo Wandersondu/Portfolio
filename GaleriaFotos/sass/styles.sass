@@ -21,11 +21,11 @@ body
     ul
         list-style: none
 
+
 .header
     display: flex
     justify-content: space-between
     @include mixins.container
-
 
     &-brand //.header-brand
         color: variables.$primary-color
@@ -37,5 +37,64 @@ body
         ul
             height: 100%
             @include mixins.flex-center
+
+        li
+            margin: 0 1rem
+            text-transform: uppercase
+            font-size: 0.8rem
+
+        .active
+            color: variables.$secondary-color
+
+        a
+            &:hover
+                color: variables.$primary-color
+
+
+    &-social-media
+        
+        ul
+            @include mixins.flex-center
+            height: 100%
+
+            li
+                margin: 0 1rem
+
+                a
+                     &:hover
+                        color: variables.$primary-color
+
+
+.gallery
+    @include mixins.flex-center
+    @include mixins.container
+    flex-wrap: wrap
+    justify-content: space-between
+    padding: 0
+
+    &-card
+        width: 31%
+        height: 400px
+        margin-bottom: 4%
+
+    h2
+            font-size: 2rem
+            font-weight: 300
+            margin-bottom: 1rem
+            
+    a
+        padding: .6rem 2rem
+        border: 2px solid variables.$primary-color
+        color: variables.$primary-color
+        font-weight: 400
+        border-radius: 5px
+
+        &:hover
+            background-color: variables.$primary-color
+            color: variables.$secondary-color
+
+#card-1
+    
+
 
 
