@@ -77,25 +77,21 @@ body
         height: 400px
         margin-bottom: 4%
 
-    h2
-            font-size: 2rem
-            font-weight: 300
-            margin-bottom: 1rem
-            
-    a
-        padding: .6rem 2rem
-        border: 2px solid variables.$primary-color
-        color: variables.$primary-color
-        font-weight: 400
-        border-radius: 5px
+        h2
+                font-size: 2rem
+                font-weight: 300
+                margin-bottom: 1rem
+                
+        a
+            padding: .6rem 2rem
+            border: 2px solid variables.$primary-color
+            color: variables.$primary-color
+            font-weight: 400
+            border-radius: 5px
 
-        &:hover
-            background-color: variables.$primary-color
-            color: variables.$secondary-color
+            &:hover
+                background-color: variables.$primary-color
+                color: variables.$secondary-color
 
     #card-1
-       @include mixins.bg-img('animais.jpg')
-
-
-
-    
+        @include mixins.bg-img{'animais.jpg'}

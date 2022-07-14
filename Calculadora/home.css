@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body{
+    background: #f7f8f6;
+    background: -webkit-linear-gradient(to right, #616060, #fafafa, #616060);
+    background: linear-gradient(to right, #616060, #fffefe, #616060);
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container{
+    width: 600px;
+    height: 800px;
+    background-color: rgb(52, 53, 54);
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+h1{
+    margin-top: 25px;
+    font-size: 40px;
+}
+
+.res{
+    width: 300px;
+    height: 80px;
+    font-size: 30px;
+    margin-top: 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    text-align: right;
+    margin-bottom: 5px;
+}
+.res::placeholder{
+    margin-right: 5px;
+}
+.box{
+    width: 330px;
+    height: 500px;
+    margin-top: 30px;
+    background-color: black;
+    display: inline-block;
+    border-radius: 20px;
+}
+.btn1{
+    width: 65px;
+    height: 65px;
+    font-size: 20px;
+    margin: 5px ;
+    border-radius: 50px;
+}
+.btn2{
+    width: 65px;
+    height: 65px;
+    font-size: 20px;
+    margin: 5px ;
+    border-radius: 50px;
+}
+.btn3{
+    width: 65px;
+    height: 65px;
+    font-size: 20px;
+    margin: 5px ;
+    border-radius: 50px;
+}
+.btn4{
+    width: 65px;
+    height: 65px;
+    font-size: 20px;
+    margin: 5px ;
+    border-radius: 50px;
+}
+.btn5{
+    width: 65px;
+    height: 65px;
+    font-size: 20px;
+    margin: 5px ;
+    border-radius: 50px;
+}
+.btn6{
+    width: 65px;
+    height: 65px;
+    font-size: 20px;
+    margin: 5px ;
+    border-radius: 50px;
+}
+.btn7{
+    width: 65px;
+    height: 65px;
+    font-size: 20px;
+    margin: 5px ;
+    border-radius: 50px;
+}
+.btn8{
+    width: 65px;
+    height: 65px;
+    font-size: 20px;
+    margin: 5px ;
+    border-radius: 50px;
+}
+.btn9{
+    width: 65px;
+    height: 65px;
+    font-size: 20px;
+    margin: 5px ;
+    border-radius: 50px;
+}
+.btn0{
+    width: 138px;
+    height: 65px;
+    font-size: 20px;
+    margin: 5px ;
+    border-radius: 50px;
+}
+.btnac{
+    width: 65px;
+    height: 65px;
+    font-size: 20px;
+    margin: 5px ;
+    border-radius: 50px;
+}
+.btnNum{
+    width: 65px;
+    height: 65px;
+    font-size: 20px;
+    margin: 5px ;
+    border-radius: 50px;
+}
+.btnPorcentagem{
+    width: 65px;
+    height: 65px;
+    font-size: 20px;
+    margin: 5px ;
+    border-radius: 50px;
+}
+.btnDivisao{
+    width: 65px;
+    height: 65px;
+    font-size: 20px;
+    margin: 5px ;
+    border-radius: 50px;
+}
+.btnMult{
+    width: 65px;
+    height: 65px;
+    font-size: 20px;
+    margin: 5px ;
+    border-radius: 50px;
+}
+.btnMenos{
+    width: 65px;
+    height: 65px;
+    font-size: 20px;
+    margin: 5px ;
+    border-radius: 50px;
+}
+.btnMais{
+    width: 65px;
+    height: 65px;
+    font-size: 20px;
+    margin: 5px ;
+    border-radius: 50px;
+}
+.btnVir{
+    width: 65px;
+    height: 65px;
+    font-size: 20px;
+    margin: 5px ;
+    border-radius: 50px;
+}
+.btnIgual{
+    width: 65px;
+    height: 65px;
+    font-size: 20px;
+    margin: 5px ;
+    border-radius: 50px;
+}
