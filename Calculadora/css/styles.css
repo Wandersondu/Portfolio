@@ -6,7 +6,9 @@
 }
 
 body{
-    background-color: rgb(32, 36, 33);
+    background: #211b25;
+    background: -webkit-linear-gradient(to right, #2E1437, #948E99); 
+    background: linear-gradient(to right, #2E1437, #948E99);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,20 +16,31 @@ body{
 }
 
 #calc{
+    background: #6c6175d5; 
+    background: -webkit-linear-gradient(to right, #948E99 #2E1437); 
+    background: linear-gradient(to right, #948E99 #2E1437); 
     width: 400px;
     padding: .8em;
-    background-color: #c4c4c4;
     color: #000;
     display: flex;
     flex-direction: column;
     margin-top: 15px;
     border-radius: 5px;
+    box-shadow: 2px 2px 8px #ead4f1;
 }
 
 #calc h3{
-    font-size: .8em;
-    font-weight: 300;
-    color: #666;
+    font-size: 1em;
+    font-weight: 700;
+    color: rgb(51, 32, 59);
+    letter-spacing: 5px;
+    border-bottom: 3px solid rgb(82, 69, 94);
+    border-left: 3px solid rgb(82, 69, 94);
+    border-right: 3px solid rgb(82, 69, 94);
+    border-radius: 5px;
+    text-align: center;
+    padding: .1rem;
+    
 }
 
 #operations{
@@ -35,7 +48,7 @@ body{
 }
 
 #previous-operation{
-    color: #777;
+    color: rgb(45, 38, 51);
     padding: .5em;
     overflow-wrap: break-word;/*faz com que os números não sai para fora*/
     min-height: 1.6em;
@@ -60,24 +73,27 @@ body{
     border-radius: 5px;
     height: 4em;
     font-size: 1.2em;
-    background-color: #fff;
+    background-color: rgb(15, 14, 15);
     cursor: pointer;
+    color: #ead4f1;
 }
 
 #buttons-container .number{
-    background-color: #f3f3f3;
+    background-color: rgb(45, 38, 51);
 
 }
 
 #buttons-container button:hover{
-    background-color: #bababa;
-    border-color: #999;
+    background-color: #69577563;
+    border-color: rgb(28, 5, 37);
 }
 #buttons-container #equal-btn{
     grid-column: span 2;
-    background-color: #75a5cb;
+    background-color: #d4cfdbea;
+    color: #09050c;
 
 }
 #buttons-container #equal-btn:hover{
-    background-color: #3a91d8;
+    background-color: rgb(15, 14, 15);
+    color: #ead4f1;
 }
