@@ -24,7 +24,7 @@ class Calculator {
      // Process all calculator operations
     processOperation(operation) {
         // Check if current is amply
-        if(this.currentOperationText.innerText === ""){
+        if(this.currentOperationText.innerText === "" && operation !== "C") {
             // Change operation
             if(this.currentOperationText.innerText !== "") {
                 this.changeOperation(operation);
@@ -56,6 +56,15 @@ class Calculator {
             case "DEL":
                 this.processDelOperator();
                 break; 
+            case "CE":
+                this.processClearCurrentOperator();
+                break; 
+            case "C":
+                this.processClearOperator();
+                break;   
+            case "=":
+                this.processEqualOperator();
+                break;    
             default:
                 return;
         }
@@ -99,10 +108,27 @@ class Calculator {
     }
 
     //Delete the last digit
-
     processDelOperator() { //metodo slice  manipula uma string e pode extrair uma parte dela
-        this.currentOperationText.innerText = this.currentOperationText.innerText.slice(0, -1)
-            
+        this.currentOperationText.innerText = 
+            this.currentOperationText.innerText.slice(0, -1)
+    }
+
+    //Clear current operations
+    processClearCurrentOperator(){
+        this.currentOperationText.innerText = " ";
+    }
+
+    //clear all operations
+    processClearOperator() {
+        this.currentOperationText.innerText = " ";
+        this.previousOperationText.innerText = " ";
+
+    }
+
+    //Clear
+    processEqualOperator() {
+        const operation = previousOperationText.innerText.split(" ")[1];
+        this.processOperation(operation)
 
     }
 }
